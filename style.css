@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Slab", serif;
+    font-weight: weight;
+    font-style: normal;
+    font-optical-sizing: auto;
+
+}
+
+h1,
+h2 {
+    font-size: 3.2em;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+header .nav-bar {
+
+    display: inline;
+    text-align: center;
+    padding-bottom: 25px;
+    font-weight: bold;
+    max-width: 90vh;
+}
+
+.redes {
+
+    left: 0;
+    top: 0;
+    z-index: 1000px;
+    margin-top: 50px;
+}
+
+.redes img {
+    background-color: rgb(221, 206, 206);
+    border-radius: 15px;
+    width: 50px;
+    margin-bottom: 20px;
+    display: block;
+
+}
+
+.redes img:hover {
+    box-shadow: 5px 5px 22px wheat;
+    transform: scale(1.2);
+
+}
+
+.slider {
+    width: 75vw;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    margin-bottom: 15px;
+
+
+}
+
+.slider .slider-track {
+    display: flex;
+    animation: scroll 80s linear infinite;
+    -webkit-animation: scroll 80s linear infinite;
+    width: calc(200px*10);
+    margin-top: 80px;
+    margin-bottom: 30px;
+
+}
+
+.slider .slide {
+    width: 200px;
+}
+
+.slider .slide img {
+    width: 100%;
+
+}
+
+@keyframes scroll {
+    0% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+
+    100% {
+        -webkit-transform: translateX(calc(-200px * 5));
+        transform: translateX(calc(-200px * 5));
+    }
+}
+
+.redes a {
+    display: inline-block;
+    margin: 30px 15px;
+
+}
+
+#nav-bar a {
+    float: right;
+    text-decoration: none;
+    margin-top: 50px;
+    margin-right: 1.1em;
+    border-radius: 22px;
+    color: rgb(145, 89, 51);
+    font-size: 25px;
+    opacity: 0.8;
+    align-content: center;
+    text-align: center;
+    font-weight: 300;
+    max-width: 1400px;
+    margin-left: 15px;
+}
+
+#nav-bar a:hover {
+    transform: scale(1.2);
+    text-decoration: underline;
+
+    transition-duration: 1s;
+}
+
+header {
+
+    background-color: burlywood;
+    height: 200px;
+    max-width: 1400px;
+
+}
+
+.container-modelo button {
+    color: rgb(172, 161, 161);
+    display: flex;
+    float: right;
+    font-size: 15px;
+
+}
+
+.container-modelo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    height: 90vh;
+    color: white;
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("./joyeria/9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+#hero2 {
+    background-color: rgb(68, 65, 65);
+    color: white;
+    text-align: center;
+    max-width: 100%;
+    background-size: cover;
+
+}
+
+#hero2 .container-2 {
+    padding: 150px 12px;
+
+}
+
+html {
+    scroll-behavior: smooth;
+    background-color: burlywood;
+
+}
+
+#hero2 h2 {
+    margin-top: 0;
+}
+
+.card:first-child {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("./joyeria/1.jpg");
+}
+
+.container-2 {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.cartas {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+    align-items: center;
+    margin-top: 50px;
+    color: burlywood;
+}
+
+#hero2 .card {
+    background-size: cover;
+    background-position: center center;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 15px;
+    width: 250px;
+    height: 250px;
+}
+
+.card:nth-child(2) {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("./joyeria/2.jpg");
+}
+
+.card:nth-child(3) {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("./joyeria/3.webp");
+}
+
+.card:nth-child(4) {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("./joyeria/4.webp");
+}
+
+.card:nth-child(5) {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("./joyeria/5.webp");
+}
+
+.card:last-child {
+    background-image: linear-gradient(0deg,
+            rgba(0, 0, 0, 0.5),
+            rgba(0, 0, 0, 0.5)), url("./joyeria/6.webp");
+}
+
+#hero2 h3 {
+    font-size: 2.em;
+    font-size: 18px;
+}
+
+#hero2 p {
+    display: block;
+}
+
+#nuestras-marcas .marcas-asociadas {
+    text-align: center;
+    margin-left: 20px;
+}
+
+#nuestras-marcas img {
+    margin-left: 50px;
+}
+
+.container-sub h2 {
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+section .card:hover {
+    opacity: 0.8;
+
+}
+
+#hero2 button {
+    margin-top: 200px;
+
+    width: 80px;
+    height: 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    font-size: 13px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+#hero button:hover {
+    opacity: 0.5;
+
+}
+
+.text {
+    color: rgba(190, 101, 49, 0.938);
+
+    margin-right: 25px;
+
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.galeria .cliente {
+    background-color: #4d0686;
+    display: flex;
+    width: 46%;
+    height: 200px;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.6);
+
+}
+
+.galeria .cliente img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: block;
+}
+
+.galeria .cliente>.contenido-cliente-text {
+    width: 60%;
+    color: white;
+
+}
+
+.galeria .cliente>.contenido-cliente-text p {
+    font-weight: 300;
+    padding-top: 5px;
+}
+
+.clientes .titulo {
+    margin: 50px 50px;
+    font-size: 40px;
+    font-weight: 400;
+    color: purple;
+}
+
+.carrito .container-carrito {
+    margin: 20px 10px;
+}
+
+.carrito .container-carrito img {
+    display: flex;
+    margin-left: 15px;
+    font-size: 80px;
+}
+
+.container-carrito img:hover {
+    cursor: progress;
+    box-shadow: 5px 5px 5px -5px white;
+    font-size: 100px;
+    transition: 1s;
+}
+
+section #titulo {
+    color: white;
+    margin-top: 60px;
+    margin-bottom: 5px;
+    text-align: center;
+    float: center;
+    font-size: 25px;
+}
+
+section #titulo:hover {
+    text-decoration: underline;
+    cursor: progress;
+}
+
+footer {
+    background-color: rgb(238, 238, 238);
+    max-width: 100%;
+}
+
+footer p {
+    margin: 0;
+    color: rgba(100, 100, 100);
+    padding: 12px;
+
+}
+
+footer .last-container {
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+
+footer .last-container p,
+a {
+    color: rgb(148, 111, 64);
+}
+
+.container-modelo h3 {
+    font-size: 30px;
+    font-family: "Roboto Slab";
+}
+
+#hero2 .text {
+    font-family: "Roboto Slab", serif;
+    font-weight: weight;
+    font-style: normal;
+    font-optical-sizing: auto;
+}
+
+.container-sub h2 {
+    font-family: "Roboto Slab", serif;
+    font-weight: weight;
+    font-style: normal;
+    font-optical-sizing: auto;
+    color: white;
+    font-weight: 350;
+
+}
+
+.clientes .titulo {
+    font-family: "Roboto Slab", serif;
+    font-weight: weight;
+    font-style: normal;
+    font-optical-sizing: auto;
+    color: white;
+
+}
